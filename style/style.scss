@@ -1,0 +1,53 @@
+//font
+//variables
+
+body{
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+.wrapper{
+   
+display: flex;
+justify-content: space-between;
+    .logo{
+        text-transform: capitalize;
+     font-weight: bold;
+padding: .2em;
+font-size: 1.5em; 
+
+    }
+    .menu{
+        width: 1.25em;
+        margin-bottom: -.3em;
+   }
+    nav{
+        background: yellow;
+display: none;   
+     ul{
+        list-style-type: none;
+       display: flex;
+       justify-content: space-between;
+       li{
+           margin-right: 2em;
+           cursor: pointer;
+       }
+        
+
+    }
+    }
+}
+    header{
+margin: 2.5em;
+  background: blueviolet;
+
+    .question{
+        color:#1dbdda;
+    }
+    .hero-title{
+        text-transform: u;
+        font-size: 2rem;
+    }
+}
