@@ -4,6 +4,10 @@ body {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+body *::first-letter {
+  text-transform: capitalize;
+}
+
 .wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -45,17 +49,137 @@ body {
   cursor: pointer;
 }
 
-header {
+header .header {
   margin: 2.5em;
-  background: blueviolet;
 }
 
-header .question {
+header .header .question {
   color: #1dbdda;
 }
 
-header .hero-title {
+header .header .hero-title {
   text-transform: u;
   font-size: 2rem;
+}
+
+header .header .story {
+  width: 7em;
+}
+
+header .hero-img img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 13em;
+  border-radius: 2em;
+}
+
+header .hero-p {
+  color: #444444;
+}
+
+header .email {
+  margin-top: 3em;
+  color: #858585;
+}
+
+header .email label {
+  display: block;
+}
+
+header .email .input {
+  width: 100%;
+  position: relative;
+  margin-top: .5em;
+}
+
+header .email input {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 3.5em;
+  border: #eeeeee;
+  border-radius: 1em;
+  background: #eeeeee;
+}
+
+header .email input::-webkit-input-placeholder {
+  font-size: 1rem;
+  padding-left: 1.5em;
+  color: #a8a8a8;
+}
+
+header .email button {
+  position: absolute;
+  top: 0;
+  border-radius: 1em;
+  right: .5em;
+  z-index: 2;
+  border: none;
+  top: 0.25em;
+  height: 3em;
+  width: 18%;
+  cursor: pointer;
+  color: white;
+  background-color: #1e90ff;
+  -webkit-transform: translateX(2px);
+          transform: translateX(2px);
+}
+
+main {
+  margin: 2.5em;
+}
+
+main .cards .cards-title {
+  margin: 4em 0 4em 0;
+  font-size: 2rem;
+}
+
+main .cards .card {
+  margin-top: 8em;
+  height: 23em;
+}
+
+main .cards .card .card-content {
+  margin: 2em;
+}
+
+main .cards .card svg {
+  margin-top: 2em;
+  width: 3.5em;
+  fill: #1dbdda;
+  margin-left: .5em;
+}
+
+main .cards .card .card-title {
+  text-transform: capitalize;
+}
+
+main .cards .card .card-p {
+  color: #7a7a7a;
+  width: 90%;
+  line-height: 1.5em;
+}
+
+main .cards .card .card-btn {
+  background: #c7c7c7;
+  border: #c7c7c7;
+  height: 3em;
+  width: 7em;
+  border-radius: 1em;
+  color: #757575;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+main .cards .middle-card {
+  -webkit-box-shadow: 5px 5px 5px 5px #eeeeee;
+          box-shadow: 5px 5px 5px 5px #eeeeee;
+  border-radius: 2em;
+}
+
+main .cards .middle-card .card-btn {
+  background: #1dbdda;
+  color: #ffffff;
 }
 /*# sourceMappingURL=style.css.map */
