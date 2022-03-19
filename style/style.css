@@ -131,7 +131,7 @@ main {
 }
 
 main .cards .cards-title {
-  margin: 4em 0 4em 0;
+  margin: 4em 0 0 0;
   font-size: 2rem;
 }
 
@@ -181,5 +181,38 @@ main .cards .middle-card {
 main .cards .middle-card .card-btn {
   background: #1dbdda;
   color: #ffffff;
+}
+
+main .cards .card-img {
+  width: 100%;
+  border-radius: 2em;
+  height: 25em;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+main .cards .card-des {
+  color: #757575;
+  margin-bottom: -1em;
+}
+
+main .cards .sec-card {
+  margin-top: 5em;
+}
+
+main .cards .see-more {
+  margin-top: 2em;
+  color: #1dbdda;
+  font-size: 1.3em;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .cards svg {
+  width: 1em;
+  margin-left: .5em;
+  fill: #1dbdda;
 }
 /*# sourceMappingURL=style.css.map */

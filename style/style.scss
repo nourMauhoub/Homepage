@@ -125,7 +125,7 @@ display: block;
         margin: 2.5em;
         .cards{
             .cards-title{
-                margin: 4em 0 4em 0 ;
+                margin: 4em 0 0 0 ;
                 font-size: 2rem;
             }
             .card{
@@ -168,5 +168,35 @@ display: block;
             background: #1dbdda;
             color: #ffffff;
         }}
+        .card-img{
+            width: 100%;
+            border-radius: 2em;
+            height: 25em;
+            object-fit: cover;
+            
         }
+        .card-des{
+            color: #757575;
+            margin-bottom: -1em;
+        }
+       .sec-card{
+           margin-top: 5em;
+       }
+
+       .see-more{
+           margin-top: 2em;
+           color: #1dbdda;
+           font-size: 1.3em;
+           text-decoration: none;
+           display: flex;
+           
+       }
+       svg{
+           width: 1em;
+           margin-left: .5em;
+           fill: #1dbdda;
+       }
+        }
+     
     }
+ 
